@@ -4,7 +4,7 @@ import random
 from .activation_function import ActivationFunction, SigmoidFunction
 
 
-class NeuralNetwork:
+class MultiLayerPerceptron:
     def __init__(
         self,
         layers: list[int],

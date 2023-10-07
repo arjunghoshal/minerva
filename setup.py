@@ -27,5 +27,6 @@ setup(
     author="Arjun Ghoshal",
     author_email="arjunp.ghoshal@gmail.com",
     url="",
+    install_requires=['numpy', 'pytest'],
     packages=find_packages(),
 )
